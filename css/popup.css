@@ -1,0 +1,115 @@
+
+.extension-main-form-container{
+    margin: 20px;
+    float: left;
+    width: 400px;
+}
+.extension-main-list-container{
+    margin: 20px;
+    margin-left: 100px;
+    width: auto;
+    float: left;
+}
+.ext-main-title{
+    font-size: 18px;
+}
+.ext-form{
+    margin-top: 10px;
+}
+.form-item-row{
+    padding: 10px 0;
+}
+.form-row-label label{
+    font-weight: bold;
+}
+.form-row-input{
+    margin-top:10px;
+}
+.form-row-input input, .form-row-input textarea, .form-row-input select{
+    border-radius: 2px;
+    border: solid 1px #cccccc;
+    padding: 5px 10px;
+    line-height: 20px;
+    width: calc(100% - 20px);
+}
+.form-row-action{
+    padding: 10px 0;
+}
+.ext-form-btn{
+    float: right;
+    background:#cccccc;
+    border-radius:3px;
+    border: solid 1px #efefef;
+    padding: 10px 0;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.ext-form-btn:hover{
+    opacity: 0.6;
+}
+.ext-form-btn.btn-primary{
+    background: #1a73e8;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.clear{
+    clear: both;
+}
+.message-hide, .hide{
+    display: none !important;
+}
+.success-message{
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: green;
+    color: #ffffff;
+    border-radius: 2px;
+    transition: all 0.3s 1s 1s ease;
+}
+.error-message{
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#form-auto-open {
+    width: auto;
+}
+
+#form-image{
+    float: right;
+    width: 48;
+    height: 48;
+}
+.table-edit, .table-delete {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.achor-btn {
+    text-decoration: none;
+    padding: 8px 4px;
+    margin-bottom: 8px;
+    background-color:#1a73e8;
+    color: #fff;
+}
+
+#close-image-btn {
+    font-size: 10pt;
+    position: relative;
+    left: 86px;
+    top: 16px;
+    background: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
